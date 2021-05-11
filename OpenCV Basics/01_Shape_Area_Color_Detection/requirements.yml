@@ -1,0 +1,9 @@
+name: env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - opencv
+  - matplotlib
+  - numpy
+  - python=3.8.*
