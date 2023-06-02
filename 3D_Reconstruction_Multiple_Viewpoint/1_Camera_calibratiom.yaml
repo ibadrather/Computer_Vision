@@ -1,0 +1,39 @@
+title: Camera Calibration
+sections:
+
+- title: Introduction to Camera Calibration
+  topics:
+    - Definition and purpose of camera calibration
+    - Distortion in camera lenses
+    - Camera model
+
+- title: Intrinsic Parameters
+  topics:
+    - Definition and role of intrinsic parameters
+    - Focal length (fx, fy)
+    - Principal point (cx, cy)
+    - Skew coefficient
+    - Lens distortion parameters (radial and tangential)
+
+- title: Extrinsic Parameters
+  topics:
+    - Definition and role of extrinsic parameters
+    - 3D rotation matrix (R)
+    - 3D translation vector (t)
+
+- title: Camera Calibration Methods
+  topics:
+    - Direct methods (using known calibration patterns)
+    - Indirect methods (self-calibration, bundle adjustment)
+    - Use of software tools (like OpenCV, MATLAB)
+
+- title: Estimating the Parameters
+  topics:
+    - Solving the equations for camera parameters
+    - Optimal solutions using least squares
+    - Role of feature detection and matching
+
+- title: Validation of Camera Calibration
+  topics:
+    - Reprojection error
+    - How to evaluate and improve calibration accuracy
